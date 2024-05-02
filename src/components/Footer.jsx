@@ -4,7 +4,7 @@ export function Footer(){
     return (
     <div className="flex items-center gap-2 ml-5 p-5">
         <Copyright/>
-        <p className="text-sm">2024 | Designed and coded with ❤️️ by Derrick Munkhbat</p>
+        <p className="text-sm text-slate-400">2024 | Designed and coded with ❤️️ by Derrick Munkhbat</p>
     </div>
     );
     

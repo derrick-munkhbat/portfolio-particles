@@ -1,4 +1,29 @@
 import ParticlesBackground from "@/src/components/ParticlesBackground";
+import {
+  Birdy,
+  Hug,
+  Kitty,
+  Location,
+  Dot,
+  Js,
+  Ts,
+  React,
+  Next,
+  Node,
+  Express,
+  Mongo,
+  Figma,
+  Git,
+  Tailwind,
+  Action,
+  Email,
+  Copy,
+  Cell,
+  Upwork,
+  Post,
+} from "@/src/components/icon";
+import { Chip } from "@/src/components/Chip";
+import { Footer } from "@/src/components/Footer";
 
 export default function Home() {
   return (
@@ -10,23 +35,23 @@ export default function Home() {
 
           {/* INTRO */}
 
-          <div className="lg:flex flex-row-reverse mt-10 gap-20">
-            <div className="flex p-10 opacity-20">
+          <div className="lg:flex flex-row-reverse mt-10 gap-15">
+            <div className="flex p-10 opacity-80">
               <div className="relative bg-slate-300 w-80 h-96 top-10 left-10">
                 background
               </div>
               <img
-                className="absolute shadow-2xl w-90 h-96 border-white border-8"
+                className="absolute shadow-2xl w-90 h-96 border-8"
                 src="/images/profile.jpeg"
                 alt="profile-portrait"
               />
             </div>
 
             <div className="lg:w-3/4 p-5">
-              <h2 className="text-3xl mt-10  text-slate-500">
+              <h2 className="text-3xl mt-10 text-teal-400">
                 Hi, I’m Derrick Munkhbat 👋
               </h2>
-              <p className="text-base mt-2 text-slate-500 text-justify">
+              <p className="text-base mt-2 text-slate-400 text-justify">
                 I'm a full stack developer (React.js & Node.js) with a focus on
                 creating (and occasionally designing) exceptional digital
                 experiences that are fast, accessible, visually appealing, and
@@ -34,19 +59,25 @@ export default function Home() {
               </p>
 
               <div className="flex items-center mt-10">
-                {/* <Location /> */}
-                <p className="text-slate-500">Ulaanbaatar, Mongolia</p>
+                <Location />
+                <p className="text-slate-400">Ulaanbaatar, Mongolia</p>
               </div>
 
               <div className="flex items-center ">
-                {/* <Dot /> */}
-                <p className="text-slate-500">Available for new projects</p>
+                <Dot />
+                <p className="text-slate-400">Available for new projects</p>
               </div>
 
               <div className=" flex mt-8">
-                <button>{/* <Kitty /> */}</button>
-                <button>{/* <Birdy /> */}</button>
-                <button>{/* <Hug /> */}</button>
+                <button>
+                  <Kitty />
+                </button>
+                <button>
+                  <Birdy />
+                </button>
+                <button>
+                  <Hug />
+                </button>
               </div>
             </div>
           </div>
@@ -54,7 +85,9 @@ export default function Home() {
           {/*ABOUT ME */}
           <div>
             <div className="flex flex-col gap-2 items-center justify-center p-5 mb-5 mt-5">
-              {/* <Chip label="About me" /> */}
+              <h1 className="text-black text-2xl opacity-60 bg-slate-400 p-3 rounded-full">
+                About me
+              </h1>
             </div>
 
             <div className="lg:flex gap-5">
@@ -67,10 +100,10 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col p-5 lg:w-2/3">
-                <h2 className="text-3xl text-center mb-5">
+                <h2 className="text-3xl text-center mb-5 text-teal-400">
                   Curious about me? Here you have it:
                 </h2>
-                <p className="text-base text-slate-500 text-justify">
+                <p className="text-base text-slate-400 text-justify">
                   Responsible and humble junior level full stack web developer
                   with a solid foundation in front-end and back-end development
                   technologies, including HTML, CSS, JavaScript, React,
@@ -82,7 +115,7 @@ export default function Home() {
                   realm of technology and digital innovation.
                 </p>
 
-                <ul className="text-base mt-2 text-slate-500 text-justify">
+                <ul className="text-base mt-2 text-slate-400 text-justify">
                   <li>
                     The Leap - 6 months full stack program by "Pinecone Academy"
                   </li>
@@ -90,7 +123,7 @@ export default function Home() {
                   <li>Full time freelancer</li>
                 </ul>
 
-                <p className="text-base text-slate-500 text-justify">
+                <p className="text-base text-slate-400 text-justify">
                   One last thing, I'm available for freelance work, so feel free
                   to reach out and say hello! I promise I don't bite 😉
                 </p>
@@ -102,60 +135,62 @@ export default function Home() {
 
           <div className="p-5">
             <div className="flex flex-col items-center justify-center p-5">
-              {/* <Chip label="Skills" /> */}
+              <h1 className="text-black text-2xl opacity-60 bg-slate-400 p-3 rounded-full">
+                Skills
+              </h1>
             </div>
-            <p className="text-base p-5 text-slate-500 text-center">
+            <p className="text-base p-5 text-slate-400 text-center">
               The skills, tools and technologies I am really good at:
             </p>
 
-            {/* <div className="mt-5 mb-5">
-              <div className="grid lg:grid-cols-6 grid-cols-3 gap-4">
+            <div className="mt-5 mb-5">
+              <div className="grid lg:grid-cols-6 grid-cols-3 gap-4 opacity-60">
                 <div className="flex flex-col items-center justify-center gap-2">
                   <Js />
-                  <p className="text-slate-700 font-medium">JavaScript</p>
+                  <p className="text-slate-400 font-medium">JavaScript</p>
                 </div>
                 <div className="flex flex-col items-center justify-center gap-2">
                   <Ts />
-                  <p className="text-slate-700 font-medium">Typescript</p>
+                  <p className="text-slate-400 font-medium">Typescript</p>
                 </div>
                 <div className="flex flex-col items-center justify-center gap-2">
                   <React />
-                  <p className="text-slate-700 font-medium">React</p>
+                  <p className="text-slate-400 font-medium">React</p>
                 </div>
                 <div className="flex flex-col items-center justify-center gap-2">
                   <Next />
-                  <p className="text-slate-700 font-medium">Next.js</p>
+                  <p className="text-slate-400 font-medium">Next.js</p>
                 </div>
                 <div className="flex flex-col items-center justify-center gap-2">
                   <Node />
-                  <p className="text-slate-700 font-medium">Node.js</p>
+                  <p className="text-slate-400 font-medium">Node.js</p>
                 </div>
                 <div className="flex flex-col items-center justify-center gap-2">
                   <Express />
-                  <p className="text-slate-700 font-medium">Express.js</p>
+                  <p className="text-slate-400 font-medium">Express.js</p>
                 </div>
                 <div className="flex flex-col items-center justify-center gap-2">
                   <Mongo />
-                  <p className="text-slate-700 font-medium">MongoDB</p>
+                  <p className="text-slate-400 font-medium">MongoDB</p>
                 </div>
                 <div className="flex flex-col items-center justify-center gap-2">
                   <Tailwind />
-                  <p className="text-slate-700 font-medium">Tailwindcss</p>
+                  <p className="text-slate-400 font-medium">Tailwindcss</p>
                 </div>
                 <div className="flex flex-col items-center justify-center gap-2">
                   <Post />
-                  <p className="text-slate-700 font-medium">PostgreSQL</p>
+                  <p className="text-slate-400 font-medium">PostgreSQL</p>
                 </div>
                 <div className="flex flex-col items-center justify-center gap-2">
                   <Figma />
-                  <p className="text-slate-700 font-medium">Figma</p>
+                  <p className="text-slate-400 font-medium">Figma</p>
                 </div>
                 <div className="flex flex-col items-center justify-center gap-2">
                   <Git />
-                  <p className="text-slate-700 font-medium">Git</p>
+                  <p className="text-slate-400 font-medium">Git</p>
                 </div>
               </div>
-            </div> */}
+            </div>
             {/* <Skills /> */}
           </div>
 
@@ -163,9 +198,11 @@ export default function Home() {
 
           <div className="opacity-30 flex flex-col rounded-2xl items-center bg-slate-100 p-5 dark:bg-slate-300">
             <div className="flex flex-col items-center p-5">
-              {/* <Chip label="Experience" /> */}
+              <h1 className="text-white text-2xl opacity-60 bg-black p-3 rounded-full">
+                Experience
+              </h1>
             </div>
-            <p className="text-base text-slate-500 text-center p-5">
+            <p className="text-base text-black text-center p-5">
               Here is a quick summary of my most recent experiences:
             </p>
 
@@ -234,15 +271,17 @@ export default function Home() {
           {/* PHOTO */}
 
           <div className="flex p-5 justify-center items-center">
-            {/* <Chip label="Hobby" /> */}
+            <h1 className="text-black text-2xl opacity-60 bg-slate-400 p-3 rounded-full">
+              Hobby
+            </h1>
           </div>
 
           <div className="lg:flex gap-5">
             <div className="flex flex-col p-5 lg:w-1/2">
-              <h2 className="text-4xl text-center mb-5">
+              <h2 className="text-4xl text-center mb-5 text-teal-400">
                 Genghis Khaan Statue
               </h2>
-              <p className="text-base text-slate-500 text-justify">
+              <p className="text-base text-slate-400 text-justify">
                 The Genghis Khan Equestrian Statue, part of the Genghis Khan
                 Statue Complex which I took this image with my drone DJI MAVIC
                 drone, is actually a 40-metre (130 ft) tall, stainless steel
@@ -269,8 +308,10 @@ export default function Home() {
 
           {/* GET IN TOUCH */}
 
-          <div className="flex flex-col items-center p-5 gap-5">
-            <div className="p-5">{/* <Chip label="Get in touch" /> */}</div>
+          <div className="flex flex-col items-center p-5 gap-5 text-slate-400">
+            <div className="p-5">
+              <Chip label="Get in touch" />
+            </div>
 
             <p className="text-center">
               What’s next? Feel free to reach out to me if you're looking for a
@@ -278,26 +319,36 @@ export default function Home() {
             </p>
 
             <div className="flex items-center gap-5">
-              {/* <Email /> */}
+              <Email />
               <h3>derrick.munkhbat@gmail.com</h3>
-              <button>{/* <Copy /> */}</button>
+              <button>
+                <Copy />
+              </button>
             </div>
 
             <div className="flex items-center gap-5">
-              {/* <Cell /> */}
+              <Cell />
               <h3>+976 88181074</h3>
-              <button>{/* <Copy /> */}</button>
+              <button>
+                <Copy />
+              </button>
             </div>
 
             <p>You may also find me on these platforms!</p>
             <div className="flex gap-5">
-              <button>{/* <Kitty /> */}</button>
-              <button>{/* <Birdy /> */}</button>
-              <button>{/* <Hug /> */}</button>
+              <button>
+                <Kitty />
+              </button>
+              <button>
+                <Birdy />
+              </button>
+              <button>
+                <Hug />
+              </button>
             </div>
           </div>
 
-          {/* <Footer /> */}
+          <Footer />
         </div>
       </div>
     </>
