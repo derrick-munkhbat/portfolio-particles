@@ -93,7 +93,7 @@ export default function Home() {
             <div className="lg:flex gap-5">
               <div className="flex justify-center lg:w-1/3 h-full">
                 <img
-                  className="rounded-2xl shadow-2xl"
+                  className="rounded-2xl shadow-2xl opacity-70"
                   src="/images/IMG_0133.jpeg"
                   alt="profile-about-me"
                 />
@@ -198,7 +198,7 @@ export default function Home() {
 
           <div className="opacity-30 flex flex-col rounded-2xl items-center bg-slate-100 p-5 dark:bg-slate-300">
             <div className="flex flex-col items-center p-5">
-              <h1 className="text-white text-2xl opacity-60 bg-black p-3 rounded-full">
+              <h1 className="text-white text-2xl opacity-70 bg-black p-3 rounded-full">
                 Experience
               </h1>
             </div>
@@ -299,7 +299,7 @@ export default function Home() {
             </div>
             <div className="flex justify-center p-5 lg:w-1/2 h-full">
               <img
-                className="rounded-2xl shadow-2xl"
+                className="rounded-2xl shadow-2xl opacity-70"
                 src="/images/DJI_0379 copy.jpg"
                 alt="profile-about-me"
               />
