@@ -52,7 +52,7 @@ export default function Home() {
                 Hi, I’m Derrick Munkhbat 👋
               </h2>
               <p className="text-base mt-2 text-slate-400 text-justify">
-                I'm a full stack developer (React.js & Node.js) with a
+                I'm a junior full stack developer (React.js & Node.js) with a
                 focus on creating (and occasionally designing) exceptional
                 digital experiences that are fast, accessible, visually
                 appealing, and responsive.
